@@ -1,11 +1,10 @@
 import REACT from 'react';
-import '../styles/Header.css';
 
-const Article = () => {
+const Article = (props) => {
     return (
         <div className='Article'>
-            <h3> Article </h3>
-            <p> Lorem ipsum dolor sit amet </p>
+            <h3> {props.titulo} </h3>
+            <p> {props.contenido} </p>
         </div>
     );
 };
