@@ -1,0 +1,11 @@
+.Article{
+    display: inline-block
+    
+}
+
+.grid{
+    width: 250px;
+    margin: 2%;
+    align-items: center;
+    text-align:left
+}
