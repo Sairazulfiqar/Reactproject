@@ -1,5 +1,6 @@
 .Footer{
-    height: 50px ;
+    margin-top: 20px;
+    height: 30px ;
     font-size: small;
     text-align: center;
     position: fixed;
