@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import '../styles/Calculadora.css';
 
-function app() {
-    const Calculadora = () => {
-        const [display, Setdisplay] = useState('0');
 
-        const handleButtonPress = (value) => {
-            if (displayvalue === 'Error') {
-                setDisplayValue(value)
-            } else {
-            } if (displayValue === '0') {
-                setDisplayValue(value);
-            } else {
-                setDisplayValue(displayValue + value);
-            }}
+    const Calculadora = () => {
+        const [displayValue, setDisplayValue] = useState('0');
+
+    const handleButtonPress = (value) => {
+        if (displayValue === 'Error'){
+            setDisplayValue (value);
+        } else {
+         if (displayValue === '0'){
+            setDisplayValue(value);
+        } else {
+            setDisplayValue(displayValue + value);
+        }}
     };
 
     const handleCalculate = () => {
